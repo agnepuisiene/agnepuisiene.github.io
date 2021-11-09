@@ -1,0 +1,318 @@
+                    html {
+                        font-family: sans-serif;
+                    }
+                    
+                    body {
+                        border: solid 1px var(--red-color);
+                    }
+                    
+                     :root {
+                        --light-color: white;
+                        --dark-color: rgb(50, 50, 50);
+                        --red-color: #c9937b;
+                        --overlay-color: rgb(50, 50, 50, 0.85);
+                        --menu-speed: 0.75s;
+                    }
+                    
+                    h1 {
+                        font-size: 50px;
+                        text-transform: uppercase;
+                        letter-spacing: 2px;
+                        color: var(--light-color);
+                    }
+                    
+                    h2 {
+                        font-size: 30px;
+                        letter-spacing: 2px;
+                        color: var(--light-color);
+                    }
+                    
+                    p {
+                        letter-spacing: 2px;
+                        color: var(--light-color);
+                        padding-top: 10px;
+                        text-align: justify;
+                    }
+                    
+                    span {
+                        letter-spacing: 2px;
+                        color: var(--dark-color);
+                    }
+                    
+                    a {
+                        color: var(--dark-color);
+                        text-decoration: none;
+                    }
+                    
+                    a:hover {
+                        color: var(--light-color);
+                    }
+                    
+                    .cover-section {
+                        height: 100vh;
+                        background-image: url(./rsz_caff4120_corrected.jpg);
+                        background-size: cover;
+                        background-position: top center;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                    }
+                    
+                    .cover-section .hello-section {
+                        padding: 0px 65px;
+                        position: relative;
+                        top: 100px;
+                    }
+                    
+                    .cover-section nav {
+                        padding: 0 65px;
+                    }
+                    
+                    .themes-section {
+                        display: flex;
+                        justify-content: right;
+                        height: 50px;
+                        padding-top: 20px;
+                    }
+                    
+                    .themes-section>div {
+                        padding-left: 50px;
+                        letter-spacing: 2px;
+                        color: var(--dark-color);
+                    }
+                    
+                    .themes-section>div:hover {
+                        color: var(--light-color);
+                    }
+                    
+                    .socialmedia-section {
+                        display: flex;
+                        justify-content: right;
+                        height: 50px;
+                        padding-top: 20px;
+                    }
+                    
+                    .socialmedia-section>div {
+                        padding-left: 10px;
+                    }
+                    
+                    svg {
+                        fill: var(--dark-color);
+                    }
+                    
+                    svg:hover {
+                        fill: var(--light-color);
+                    }
+                    
+                    .about-container {
+                        display: flex;
+                        background-color: var(--dark-color);
+                        align-items: center;
+                        padding: 30px 65px;
+                    }
+                    
+                    .about-container .accounting {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    
+                    .accounting>div {
+                        flex: 1;
+                    }
+                    
+                    .accountant,
+                    .architecture,
+                    .student {
+                        padding-right: 20px;
+                    }
+                    
+                    .calculator,
+                    .project-manager,
+                    .computer {
+                        padding-left: 20px;
+                    }
+                    
+                    .calculator {
+                        text-align: center;
+                    }
+                    
+                    .calculator img {
+                        width: 100%;
+                        height: auto;
+                    }
+                    
+                    .personal-projects {
+                        display: flex;
+                        min-height: 50vh;
+                        background-color: var(--light-color);
+                        align-items: center;
+                        padding: 30px 65px;
+                    }
+                    
+                    .personal-projects .buildings {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    
+                    .buildings>div {
+                        flex: 1;
+                    }
+                    
+                    .architecture {
+                        text-align: center;
+                    }
+                    
+                    .architecture img {
+                        width: 100%;
+                        height: auto;
+                    }
+                    
+                    .project-manager p {
+                        color: var(--dark-color);
+                    }
+                    
+                    .studies-container {
+                        display: flex;
+                        background-color: var(--dark-color);
+                        align-items: center;
+                        padding: 30px 65px;
+                    }
+                    
+                    .studies-container .studying {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    
+                    .studying>div {
+                        flex: 1;
+                    }
+                    
+                    .computer {
+                        text-align: center;
+                    }
+                    
+                    .computer img {
+                        width: 100%;
+                        height: auto;
+                    }
+                    
+                    .contacts-container {
+                        height: 100vh;
+                        background-color: var(--dark-color);
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        align-items: center;
+                    }
+                    
+                    .contacts-container h3 {
+                        color: var(--light-color);
+                        font-weight: 600;
+                        font-size: 50px;
+                        padding: 50px 150px;
+                        border: solid 3px var(--light-color);
+                        border-radius: 5px;
+                    }
+                    
+                    .contacts-container .hello {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: center;
+                        height: 150px;
+                    }
+                    
+                    .contacts-container .hello button {
+                        padding: 15px 50px;
+                        border-radius: 5px;
+                        border: none;
+                        text-transform: uppercase;
+                        font-size: 15px;
+                        font-weight: 600;
+                    }
+                    
+                    .contacts-container .hello a {
+                        color: var(--dark-color);
+                        text-decoration: none;
+                    }
+                    
+                    .bottom-line {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 0px 30px;
+                        background-color: var(--red-color);
+                    }
+                    
+                    @media (max-width:768px) {
+                        .accounting,
+                        .buildings,
+                        .studying {
+                            flex-direction: column-reverse;
+                        }
+                        .personal-projects {
+                            background-color: var(--dark-color);
+                        }
+                        .personal-projects p {
+                            color: var(--light-color);
+                        }
+                        .calculator,
+                        .architecture,
+                        .computer {
+                            display: none;
+                        }
+                        .contacts-container {
+                            align-items: flex-start;
+                            padding: 0px 65px;
+                            height: 50vh;
+                        }
+                        .contacts-container h3 {
+                            font-weight: 600;
+                            font-size: 30px;
+                            padding: 20px 40px;
+                        }
+                        .contacts-container .hello {
+                            justify-content: space-around;
+                            align-items: flex-start;
+                        }
+                        .project-manager {
+                            padding-left: 0px;
+                        }
+                    }
+                    
+                    @media (max-width:768px) {
+                        .themes-section {
+                            flex-direction: column;
+                            align-items: flex-end;
+                            display: none;
+                        }
+                        .cover-section .hello-section {
+                            padding: 0px 40px;
+                        }
+                        .cover-section nav {
+                            padding: 0 40px;
+                        }
+                        .about-container {
+                            padding: 30px 40px 10px 40px;
+                        }
+                        .personal-projects,
+                        .studies-container {
+                            padding: 10px 40px;
+                        }
+                        .contacts-container {
+                            padding: 0px 40px;
+                        }
+                        .personal-projects {
+                            min-height: 0vh;
+                        }
+                        .accountant,
+                        .student {
+                            padding-right: 0px;
+                        }
+                    }
+                    
+                    @media (max-width:345px) {
+                        .contacts-container h3 {
+                            font-size: 20px;
+                        }
+                    }
