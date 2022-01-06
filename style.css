@@ -51,7 +51,7 @@
                 
                 .cover-section {
                     height: 100vh;
-                    background-image: url(./rsz_caff4120_corrected.jpg);
+                    background-image: url(./cover.jpg);
                     background-size: cover;
                     background-position: top center;
                     display: flex;
@@ -123,22 +123,22 @@
                 }
                 
                 .accountant,
-                .architecture,
+                .tools,
                 .student {
                     padding-right: 20px;
                 }
                 
-                .calculator,
+                .photo,
                 .project-manager,
-                .computer {
+                .workplace {
                     padding-left: 20px;
                 }
                 
-                .calculator {
+                .photo {
                     text-align: center;
                 }
                 
-                .calculator img {
+                .photo img {
                     width: 100%;
                     height: auto;
                 }
@@ -160,11 +160,11 @@
                     flex: 1;
                 }
                 
-                .architecture {
+                .tools {
                     text-align: center;
                 }
                 
-                .architecture img {
+                .tools img {
                     width: 100%;
                     height: auto;
                 }
@@ -189,11 +189,11 @@
                     flex: 1;
                 }
                 
-                .computer {
+                .workplace {
                     text-align: center;
                 }
                 
-                .computer img {
+                .workplace img {
                     width: 100%;
                     height: auto;
                 }
@@ -211,6 +211,7 @@
                     color: var(--light-color);
                     font-weight: 600;
                     font-size: 50px;
+                    padding-bottom: 15px;
                 }
                 
                 .get-in-touch {
@@ -222,6 +223,7 @@
                     width: 75vw;
                     border: solid 3px var(--light-color);
                     border-radius: 5px;
+                    padding: 20px;
                 }
                 
                 .contacts-container .hello {
@@ -274,14 +276,14 @@
                     .personal-projects p {
                         color: var(--light-color);
                     }
-                    .calculator,
-                    .architecture,
-                    .computer {
+                    .photo,
+                    .tools,
+                    .workplace {
                         display: none;
                     }
                     .contacts-container {
                         padding: 50px 65px;
-                        height: 50vh;
+                        height: 60vh;
                     }
                     .contacts-container h3 {
                         font-weight: 600;
