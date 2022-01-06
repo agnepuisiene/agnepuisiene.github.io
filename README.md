@@ -1,1 +1,7 @@
-# agne-portfolio
+# About me
+In my fourteen years of work experience as an accountant, the last nine years I have worked as a chief accountant and I am responsible for the full accounting cycle in two manufacturing companies. The ability to work fast, the ability to plan time and plan actions effectively allowed me to accept an offer and be responsible for two more real estate companies three years ago. I like new challenges, I am communicative, I can work either with individual tasks either in a team. I always make sure the task is completed.
+
+For the past few years I succesfully managed several different personal projects. One of them was succesfully building the house. I started with helping to project the house, then I learned all the details and consulted the workers (who I hired my self) with the building issues, I was looking for and buying the construction materials, I was also taking care of documentation and etc. In all these parts I had to spend many hours looking for the information on the internet and it appeared to be enjoyable. I understood that new projects are like hobby to me.    
+
+That is why I have decided to change my career direction and IT sector looks very promising and exciting. I am willing to put all hard work to learn and eventually work as a professional programmer. For now I am studying JAVA programming at Baltic Institute of Technology and I am graduating on March 2022. I hope you will be interested In my candidacy and we will meet in a job interview.
+                
